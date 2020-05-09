@@ -52,11 +52,11 @@ public class Edureka_sikuli_fileupload {
 		
 		driver.findElement(By.xpath("//div[@class='file-upload']")).click();
 		Thread.sleep(2000);
-		Pattern fileNameInput = new Pattern("E:\\Capture.PNG");
-        Pattern openButton = new Pattern("E:\\OpenBtn.PNG");
+		Pattern fileNameInput = new Pattern(currDir+"\\Photos\\Capture.PNG");
+        Pattern openButton = new Pattern(currDir+"\\Photos\\OpenBtn.PNG");
 		
         Screen screen = new Screen();
-        screen.type(fileNameInput,"E:\\pinky.JPG");
+        screen.type(fileNameInput,CurrDir+"Photos\\pinky.JPG");
         screen.click(openButton);
         Thread.sleep(2000);
 
