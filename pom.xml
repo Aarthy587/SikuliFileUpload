@@ -17,6 +17,12 @@
     <artifactId>sikuli-api</artifactId>
     <version>1.2.0</version>
 </dependency>
+    
+    <dependency>
+<groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>4.11</version>
+</dependency>
 
     <!-- https://mvnrepository.com/artifact/org.sikuli/sikuli-core -->
 <dependency>
