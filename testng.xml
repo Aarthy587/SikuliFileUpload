@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestScript">
+    <classes>
+      <class name="pages.Edureka_sikuli_fileupload"/>
+    </classes>
+  </test> <!-- TestScript -->
+</suite> <!-- Suite -->
