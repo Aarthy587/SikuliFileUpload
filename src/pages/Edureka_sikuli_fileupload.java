@@ -11,12 +11,14 @@ import org.sikuli.script.Screen;
 import org.testng.annotations.Test;
 
 public class Edureka_sikuli_fileupload {
-
+	
+String currDir=System.getProperty("user.dir");
+	
 	@Test
 	public void TC_Edureka_sikuli_fileupload() throws InterruptedException, FindFailed {
 
 		WebDriver driver;
-		String currDir=System.getProperty("user.dir");
+		
 		
 		System.setProperty("webdriver.chrome.driver", currDir+"\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
