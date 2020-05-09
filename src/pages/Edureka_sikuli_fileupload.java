@@ -56,7 +56,7 @@ public class Edureka_sikuli_fileupload {
         Pattern openButton = new Pattern(currDir+"\\Photos\\OpenBtn.PNG");
 		
         Screen screen = new Screen();
-        screen.type(fileNameInput,CurrDir+"Photos\\pinky_1.JPG");
+        screen.type(fileNameInput,CurrDir+"\\Photos\\pinky_1.JPG");
         screen.click(openButton);
         Thread.sleep(2000);
 
