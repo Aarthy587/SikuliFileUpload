@@ -12,13 +12,13 @@ import org.testng.annotations.Test;
 
 public class Edureka_sikuli_fileupload {
 	
-String currDir=System.getProperty("user.dir");
+
 	
 	@Test
 	public void TC_Edureka_sikuli_fileupload() throws InterruptedException, FindFailed {
 
 		WebDriver driver;
-		
+		String currDir=System.getProperty("user.dir");
 		
 		System.setProperty("webdriver.chrome.driver", currDir+"\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
@@ -58,7 +58,7 @@ String currDir=System.getProperty("user.dir");
         Pattern openButton = new Pattern(currDir+"\\Photos\\OpenBtn.PNG");
 		
         Screen screen = new Screen();
-        screen.type(fileNameInput,CurrDir+"\\Photos\\pinky_1.JPG");
+        screen.type(fileNameInput,currDir+"\\Photos\\pinky_1.JPG");
         screen.click(openButton);
         Thread.sleep(2000);
 
