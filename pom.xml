@@ -13,8 +13,8 @@
     <version>3.11.0</version>
 </dependency><!-- https://mvnrepository.com/artifact/org.sikuli/sikuli-api -->
 <dependency>
-    <groupId>org.sikuli</groupId>
-    <artifactId>sikuli-api</artifactId>
+    <groupId>org.sikulix</groupId>
+    <artifactId>sikulix-api</artifactId>
     <version>1.2.0</version>
 </dependency>
     
@@ -26,8 +26,8 @@
 
     <!-- https://mvnrepository.com/artifact/org.sikuli/sikuli-core -->
 <dependency>
-    <groupId>org.sikuli</groupId>
-    <artifactId>sikuli-core</artifactId>
+    <groupId>org.sikulix</groupId>
+    <artifactId>sikulix-core</artifactId>
     <version>1.2.2</version>
 </dependency>
     
@@ -36,7 +36,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.8.5</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
 <dependency>
